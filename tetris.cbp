@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="tetris" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug Win32">
+				<Option output="tetris" prefix_auto="1" extension_auto="1" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-DSFML_STATIC" />
+					<Add option="-DWIN32" />
+					<Add option="-D_DEBUG" />
+					<Add option="-D_CONSOLE" />
+					<Add directory="/Users/kengniadjanie/Downloads/tetris-master3/src/tetris/tetris/include" />
+				</Compiler>
+				<Linker>
+					<Add library="sfml-audio-s-d.lib" />
+					<Add library="sfml-graphics-s-d.lib" />
+					<Add library="sfml-window-s-d.lib" />
+					<Add library="sfml-system-s-d.lib" />
+					<Add library="opengl32.lib" />
+					<Add library="freetype.lib" />
+					<Add library="jpeg.lib" />
+					<Add library="openal32.lib" />
+					<Add library="winmm.lib" />
+					<Add library="gdi32.lib" />
+					<Add library="flac.lib" />
+					<Add library="vorbisenc.lib" />
+					<Add library="vorbisfile.lib" />
+					<Add library="vorbis.lib" />
+					<Add library="ogg.lib" />
+					<Add library="kernel32.lib" />
+					<Add library="user32.lib" />
+					<Add library="winspool.lib" />
+					<Add library="comdlg32.lib" />
+					<Add library="advapi32.lib" />
+					<Add library="shell32.lib" />
+					<Add library="ole32.lib" />
+					<Add library="oleaut32.lib" />
+					<Add library="uuid.lib" />
+					<Add library="odbc32.lib" />
+					<Add library="odbccp32.lib" />
+					<Add directory="/Users/kengniadjanie/Downloads/tetris-master3/src/tetris/tetris/lib" />
+				</Linker>
+			</Target>
+			<Target title="Debug x64">
+				<Option output="tetris" prefix_auto="1" extension_auto="1" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-D_DEBUG" />
+					<Add option="-D_CONSOLE" />
+				</Compiler>
+			</Target>
+			<Target title="Release x64">
+				<Option output="tetris" prefix_auto="1" extension_auto="1" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-DNDEBUG" />
+					<Add option="-D_CONSOLE" />
+				</Compiler>
+			</Target>
+			<Target title="Release Win32">
+				<Option output="tetris" prefix_auto="1" extension_auto="1" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-DSFML_STATIC" />
+					<Add option="-DWIN32" />
+					<Add option="-DNDEBUG" />
+					<Add option="-D_CONSOLE" />
+					<Add directory="/Users/kengniadjanie/Downloads/tetris-master3/src/tetris/tetris/include" />
+				</Compiler>
+				<Linker>
+					<Add library="sfml-audio-s.lib" />
+					<Add library="sfml-graphics-s.lib" />
+					<Add library="sfml-window-s.lib" />
+					<Add library="sfml-system-s.lib" />
+					<Add library="opengl32.lib" />
+					<Add library="freetype.lib" />
+					<Add library="jpeg.lib" />
+					<Add library="openAL32.lib" />
+					<Add library="winmm.lib" />
+					<Add library="gdi32.lib" />
+					<Add library="flac.lib" />
+					<Add library="vorbisenc.lib" />
+					<Add library="vorbisfile.lib" />
+					<Add library="vorbis.lib" />
+					<Add library="ogg.lib" />
+					<Add library="kernel32.lib" />
+					<Add library="user32.lib" />
+					<Add library="winspool.lib" />
+					<Add library="comdlg32.lib" />
+					<Add library="advapi32.lib" />
+					<Add library="shell32.lib" />
+					<Add library="ole32.lib" />
+					<Add library="oleaut32.lib" />
+					<Add library="uuid.lib" />
+					<Add library="odbc32.lib" />
+					<Add library="odbccp32.lib" />
+					<Add directory="/Users/kengniadjanie/Downloads/tetris-master3/src/tetris/tetris/lib" />
+				</Linker>
+			</Target>
+		</Build>
+		<Unit filename="App.cpp" />
+		<Unit filename="App.h" />
+		<Unit filename="Board.cpp" />
+		<Unit filename="Board.h" />
+		<Unit filename="Game.cpp" />
+		<Unit filename="Game.h" />
+		<Unit filename="I.cpp" />
+		<Unit filename="I.h" />
+		<Unit filename="J.cpp" />
+		<Unit filename="J.h" />
+		<Unit filename="L.cpp" />
+		<Unit filename="L.h" />
+		<Unit filename="Library.h" />
+		<Unit filename="O.cpp" />
+		<Unit filename="O.h" />
+		<Unit filename="S.cpp" />
+		<Unit filename="S.h" />
+		<Unit filename="Screen.cpp" />
+		<Unit filename="Screen.h" />
+		<Unit filename="T.cpp" />
+		<Unit filename="T.h" />
+		<Unit filename="Tetromino.cpp" />
+		<Unit filename="Tetromino.h" />
+		<Unit filename="Z.cpp" />
+		<Unit filename="Z.h" />
+		<Extensions>
+			<envvars />
+			<code_completion />
+			<lib_finder disable_auto="1" />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
