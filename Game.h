@@ -1,5 +1,4 @@
 #pragma once
-
 #include "Board.h"
 #include "Tetromino.h"
 #include "Screen.h"
@@ -12,7 +11,6 @@ using namespace std;
 
 class Game
 {
-	
 public:
 
 	void tick();
@@ -20,7 +18,6 @@ public:
 	void start();
 	 Game(RenderWindow &window);
 	~Game();
-	
 	
 private:
 	Board oneBoard;
@@ -47,7 +44,5 @@ private:
 	void checkBoard();
 	void checkLines();
 	void restart();
-
-
 };
 

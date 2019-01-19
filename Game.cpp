@@ -34,7 +34,7 @@ Game::~Game()
 	}
 }
 
-//gère les événements du jeu
+//Gère les événements du jeu
 void Game::update(const Event event)
 {
 	
